@@ -1,0 +1,45 @@
+install/
+log/
+build/
+
+.idea
+.vscode/*
+!.vscode/bookmarks.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!.vscode/c_cpp_properties.json
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Ignore generated docs
+*.dox
+*.wikidoc
+
+# eclipse stuff
+.project
+.cproject
+
+# qcreator stuff
+CMakeLists.txt.user
+
+srv/_*.py
+*.pcd
+*.pyc
+qtcreator-*
+*.user
+
+*~
+
+# Emacs
+.#*
+
+# Colcon custom files
+COLCON_IGNORE
+AMENT_IGNORE
